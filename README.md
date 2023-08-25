@@ -11,3 +11,9 @@
 5 Problem 5 : Create a Pandas DataFrame from List of Dicts	(	https://www.geeksforgeeks.org/create-a-pandas-dataframe-from-list-of-dicts/)
 
 6 Problem 6 : Replace values in Pandas dataframe using regex (	https://www.geeksforgeeks.org/replace-values-in-pandas-dataframe-using-regex/)
+
+7 Problem 7 :Big Countries	(	https://leetcode.com/problems/big-countries/ )
+
+8 Problem 8 :Recyclable and Low Fat Products	(	https://leetcode.com/problems/recyclable-and-low-fat-products/ )
+
+9 Problem 9 :Customer Who Never Order	(	https://leetcode.com/problems/customers-who-never-order/  )
