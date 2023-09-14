@@ -8,4 +8,3 @@
 
 4 Problem 4 :Customer Who Never Order	(	https://leetcode.com/problems/customers-who-never-order/  )
 
-5 Problem 5: Patients With a Condition:  https://leetcode.com/problems/patients-with-a-condition/
