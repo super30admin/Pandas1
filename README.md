@@ -7,3 +7,5 @@
 3 Problem 3 :Recyclable and Low Fat Products	(	https://leetcode.com/problems/recyclable-and-low-fat-products/ )
 
 4 Problem 4 :Customer Who Never Order	(	https://leetcode.com/problems/customers-who-never-order/  )
+
+5 Problem 5: Patients With a Condition:  https://leetcode.com/problems/patients-with-a-condition/
