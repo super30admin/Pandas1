@@ -1,0 +1,9 @@
+# import pandas as pd  
+import pandas as pd   
+      
+# List1   
+lst = [['Apple', 'Red'], ['Grapes', 'green'],  
+       ['banana', 'yellow'], ['blueberry', 'blue']]  
+  
+# creating df object with columns specified     
+df = pd.DataFrame(lst, columns =['Fruit', 'Colour'])  
