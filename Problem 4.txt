@@ -1,0 +1,8 @@
+import pandas as pd
+
+def find_customers(customers: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFrame:
+    y = customers[~customers['id'].isin(orders['customerId'].to_list())]
+    y.rename(columns={'name': 'Customers'}, inplace=True)
+    return y[['Customers']] 
+    
+    
