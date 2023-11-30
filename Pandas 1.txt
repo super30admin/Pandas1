@@ -1,0 +1,27 @@
+q29. Big Countries
+
+import pandas as pd
+
+def big_countries(world: pd.DataFrame) -> pd.DataFrame:
+    mylist = []
+    for i in range(len(world)):
+        if (world['area'][i] >= 3000000) or (world['population'][i] >= 25000000):
+            mylist.append([world['name'][i], world['population'][i], world['area'][i]])
+    return pd.DataFrame(mylist, columns = ['name', 'population', 'area'])
+
+
+q30. Recyclable and Low Fat Products
+
+import pandas as pd
+
+def find_products(products: pd.DataFrame) -> pd.DataFrame:
+    return products[['product_id']].loc[(products['low_fats']=='Y') & (products['recyclable']=='Y')]
+
+q31. Customers Who Never Order
+
+#method 1
+import pandas as pd
+
+def find_customers(customers: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFrame:
+    df= customers[~customers['id'].isin(orders['customerId'])]
+    return df [['name']].rename(columns = {'name' : 'Customers'})
